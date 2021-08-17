@@ -1,0 +1,57 @@
+:root{
+   --heading-font: 'Fjalla One', sans-serif;
+   --text-font: 'Crimson Pro', serif;
+   --main-color:black;
+   --primary-color:white;
+}
+body{
+   background-image: url(images/bg.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   text-align: center;
+}
+.main{
+   width: 40%;
+   background-color: rgb(36, 36, 36);
+   opacity: 0.6;
+   margin: 10% 30%;
+
+   
+}
+.facebook, .insta, .google{
+   margin: 5% 5% ;
+   padding: 2% 1%;
+   width: 7rem;
+
+   /* margin-right: 50%; */
+   /* margin-left: 35%; */
+}
+.insta{
+   background-color: rgb(255, 3, 138) !important;
+}
+.google{
+   background-color: rgb(255, 255, 255) !important;
+   color: black !important;
+}
+.form-floating a{
+   text-decoration: none;
+   color: var(--primary-color);
+   
+   
+}
+.submit{
+   margin-top: 5%;
+   padding: 2% 10% !important;
+   /* margin-right: 50%; */
+   margin-left: 35%;
+   
+}
+.form-floating p{
+   color: var(--primary-color);
+   text-align: center;
+}
+h1{
+  
+   color: var(--primary-color);
+}
